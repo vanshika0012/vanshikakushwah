@@ -1,0 +1,31 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+	int n;
+	char grade;
+	printf("enter the marks of the students");
+	scanf("%d",&n);
+	if(n>=85&&n<=100)
+	{
+		grade='A';
+	}
+    else if( n>=70&&n<=84)
+   {
+   	grade='B';
+   }
+   else if( n>=55&&n>=69)
+   {
+   	 grade ='C';
+   }
+   else if(n>=40&&n<=54)
+   {
+   	grade='D';
+   }
+   else
+   {
+   	grade='F';
+   }
+   printf("the grade of the student is %c",grade);
+   getch();
+}
