@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int price,choice;
+	printf("**********MENU************\n");
+	printf("1.pizza\n");
+	printf("2,burger\n");
+	printf("3pasta\n");
+	printf("4frenchfries\n");
+	printf("5sandwich\n");
+	printf("enter your choice\n");
+	scanf("%d",&choice);
+	switch (choice)
+	{
+
+	case 1:
+	price=239;
+	printf("your choice is pizza cost %d",price);
+	break;
+	case 2:
+	price=129;
+	printf("your choice is burger cost %d",price);
+	break;
+	case 3:
+	price=179;
+	printf("your choice is pasta cost %d",price);
+	break;	
+	case 4:
+	price=99;
+	printf("your choice is frenchfries cost %d",price);	
+	break;	
+	case 5:
+	price=149;
+	printf("your choice is sandwich cost %d",price);
+		break;
+   }
+}
